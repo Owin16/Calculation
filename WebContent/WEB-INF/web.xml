@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" id="WebApp_ID" version="2.4">
+	<servlet>
+		<display-name>
+			Format10Servlet
+		</display-name>
+		<servlet-name>Format10Servlet</servlet-name>
+		<servlet-class>
+			jspServlet.Format10Servlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Format10Servlet</servlet-name>
+		<url-pattern>/Format10Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<display-name>
+			Format2Servlet
+		</display-name>
+		<servlet-name>Format2Servlet</servlet-name>
+		<servlet-class>
+			jspServlet.Format2Servlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Format2Servlet</servlet-name>
+		<url-pattern>/Format2Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<display-name>
+			Format16Servlet
+		</display-name>
+		<servlet-name>Format16Servlet</servlet-name>
+		<servlet-class>
+			jspServlet.Format16Servlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Format16Servlet</servlet-name>
+		<url-pattern>/Format16Servlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
